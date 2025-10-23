@@ -65,6 +65,7 @@ export default {
       },
       fontFamily: {
         inter: ['Inter', 'sans-serif'],
+        times: ['Times New Roman', 'Times', 'serif'],
       },
       keyframes: {
         "accordion-down": {

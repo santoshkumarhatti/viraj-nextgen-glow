@@ -15,8 +15,8 @@ const Hero = () => {
 
       <div className="relative z-10 text-center max-w-5xl mx-auto animate-fade-in">
         {/* Company Name */}
-        <h1 className="text-7xl md:text-9xl font-black mb-6 bg-gradient-to-r from-primary via-accent to-primary bg-clip-text text-transparent animate-glow tracking-wider [text-shadow:0_0_30px_rgba(var(--primary),0.5)] hover:scale-105 transition-transform duration-500">
-          VRCRP
+        <h1 className="text-7xl md:text-9xl font-black mb-6 bg-gradient-to-r from-primary via-accent to-primary bg-clip-text text-transparent animate-glow tracking-wider [text-shadow:0_0_30px_rgba(var(--primary),0.5)] hover:scale-105 transition-transform duration-500 font-times">
+          ValorLink
         </h1>
 
         {/* Tagline */}

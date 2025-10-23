@@ -5,8 +5,8 @@ const About = () => {
     <section id="about" className="py-24 px-4 relative">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16 animate-fade-in-up">
-          <h2 className="text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-primary via-accent to-primary bg-clip-text text-transparent tracking-wide">
-            About VRCRP
+          <h2 className="text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-primary via-accent to-primary bg-clip-text text-transparent tracking-wide font-times">
+            About ValorLink
           </h2>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
             Pioneering the future of enterprise technology
@@ -45,7 +45,7 @@ const About = () => {
 
         <div className="bg-card/30 backdrop-blur-md border border-border rounded-2xl p-8 md:p-12 animate-fade-in-up">
           <p className="text-lg leading-relaxed text-foreground/90">
-            <span className="text-primary font-bold tracking-wider text-xl">VRCRP</span> is a next-generation IT service provider dedicated to helping businesses innovate and scale through{" "}
+            <span className="text-primary font-bold tracking-wider text-xl font-times">ValorLink</span> is a next-generation IT service provider dedicated to helping businesses innovate and scale through{" "}
             <span className="text-accent font-semibold">cloud computing</span>, intelligent automation, and{" "}
             <span className="text-accent font-semibold">AI-powered systems</span>. 
             We specialize in building robust, scalable infrastructure that transforms how organizations operate in the digital age. 
