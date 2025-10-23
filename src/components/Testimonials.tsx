@@ -5,14 +5,14 @@ const testimonials = [
   {
     name: "Sarah Johnson",
     role: "CTO, TechCorp Solutions",
-    content: "Viraj transformed our entire infrastructure. Their cloud migration strategy was flawless, and the AI automation they implemented saved us countless hours. Truly exceptional service.",
+    content: "VRCRP transformed our entire infrastructure. Their cloud migration strategy was flawless, and the AI automation they implemented saved us countless hours. Truly exceptional service.",
     rating: 5,
     avatar: "SJ"
   },
   {
     name: "Michael Chen",
     role: "CEO, InnovateLabs",
-    content: "Working with Viraj has been a game-changer. Their cybersecurity audit uncovered vulnerabilities we didn't know existed, and their solutions were both comprehensive and easy to implement.",
+    content: "Working with VRCRP has been a game-changer. Their cybersecurity audit uncovered vulnerabilities we didn't know existed, and their solutions were both comprehensive and easy to implement.",
     rating: 5,
     avatar: "MC"
   },
