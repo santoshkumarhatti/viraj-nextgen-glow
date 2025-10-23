@@ -13,7 +13,7 @@ const Footer = () => {
   return (
     <footer className="relative py-16 px-4 border-t border-border/50 bg-card/30 backdrop-blur-md">
       <div className="max-w-7xl mx-auto">
-        <div className="grid md:grid-cols-4 gap-12 mb-12">
+        <div className="grid md:grid-cols-3 gap-12 mb-12">
           {/* Brand */}
           <div className="md:col-span-2">
             <h3 className="text-3xl font-black bg-gradient-to-r from-primary via-accent to-primary bg-clip-text text-transparent mb-4 tracking-wider hover:scale-105 transition-transform duration-300 font-times">
@@ -45,18 +45,6 @@ const Footer = () => {
                   </button>
                 </li>
               ))}
-            </ul>
-          </div>
-
-          {/* Services */}
-          <div>
-            <h4 className="text-lg font-semibold mb-4 text-foreground">Services</h4>
-            <ul className="space-y-3 text-muted-foreground">
-              <li className="hover:text-primary transition-colors duration-300 cursor-pointer">Cloud Solutions</li>
-              <li className="hover:text-primary transition-colors duration-300 cursor-pointer">AI Integration</li>
-              <li className="hover:text-primary transition-colors duration-300 cursor-pointer">Web Development</li>
-              <li className="hover:text-primary transition-colors duration-300 cursor-pointer">Cybersecurity</li>
-              <li className="hover:text-primary transition-colors duration-300 cursor-pointer">IT Consulting</li>
             </ul>
           </div>
         </div>
