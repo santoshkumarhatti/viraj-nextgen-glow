@@ -2,12 +2,7 @@ import { Cloud, Container, Database, Boxes } from "lucide-react";
 
 const technologies = [
   {
-    name: "AWS",
-    icon: Cloud,
-    color: "text-orange-500"
-  },
-  {
-    name: "Azure",
+    name: "Cloud",
     icon: Cloud,
     color: "text-blue-500"
   },
@@ -22,14 +17,14 @@ const technologies = [
     color: "text-yellow-500"
   },
   {
-    name: "Kubernetes",
+    name: "Java",
     icon: Container,
-    color: "text-blue-600"
+    color: "text-orange-600"
   },
   {
-    name: "Docker",
-    icon: Container,
-    color: "text-blue-400"
+    name: "Data Engineer",
+    icon: Database,
+    color: "text-green-500"
   }
 ];
 

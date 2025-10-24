@@ -16,7 +16,7 @@ const Hero = () => {
       <div className="relative z-10 text-center max-w-5xl mx-auto animate-fade-in">
         {/* Company Name */}
         <h1 className="text-5xl md:text-7xl lg:text-8xl font-black mb-6 text-foreground tracking-tight font-times uppercase">
-          VaroTech
+          veroram
         </h1>
 
         {/* Tagline */}

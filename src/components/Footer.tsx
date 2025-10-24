@@ -17,7 +17,7 @@ const Footer = () => {
           {/* Brand */}
           <div className="md:col-span-2">
             <h3 className="text-2xl md:text-3xl font-black text-foreground mb-4 tracking-tight hover:scale-105 transition-transform duration-300 font-times uppercase">
-              VaroTech
+              veroram
             </h3>
             <p className="text-muted-foreground mb-6 max-w-md">
               Empowering businesses with scalable IT solutions. From cloud infrastructure to AI integration, we deliver enterprise-grade technology services.
@@ -70,7 +70,7 @@ const Footer = () => {
         {/* Copyright */}
         <div className="text-center pt-8 border-t border-border/50">
           <p className="text-muted-foreground text-sm">
-            Copyright © {currentYear} <span className="font-semibold text-primary font-times">VaroTech</span> Technologies. All rights reserved.
+            Copyright © {currentYear} <span className="font-semibold text-primary font-times">veroram</span> Technologies. All rights reserved.
           </p>
         </div>
       </div>
