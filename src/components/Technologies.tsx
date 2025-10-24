@@ -1,4 +1,4 @@
-import { Cloud, Container, Database, Boxes } from "lucide-react";
+import { Cloud, Database, Code2, Lock, Cpu, Blocks } from "lucide-react";
 
 const technologies = [
   {
@@ -7,24 +7,29 @@ const technologies = [
     color: "text-blue-500"
   },
   {
-    name: "React",
-    icon: Boxes,
+    name: "Data Engineering",
+    icon: Database,
+    color: "text-green-500"
+  },
+  {
+    name: "Full Stack",
+    icon: Code2,
     color: "text-cyan-500"
   },
   {
-    name: "Python",
-    icon: Database,
-    color: "text-yellow-500"
+    name: "Blockchain",
+    icon: Blocks,
+    color: "text-orange-500"
   },
   {
-    name: "Java",
-    icon: Container,
-    color: "text-orange-600"
+    name: "Generative AI",
+    icon: Cpu,
+    color: "text-pink-500"
   },
   {
-    name: "Data Engineer",
-    icon: Database,
-    color: "text-green-500"
+    name: "Cybersecurity",
+    icon: Lock,
+    color: "text-red-500"
   }
 ];
 
