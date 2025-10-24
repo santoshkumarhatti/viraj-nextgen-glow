@@ -14,7 +14,63 @@ export type Database = {
   }
   public: {
     Tables: {
-      [_ in never]: never
+      enquiries: {
+        Row: {
+          attachment_url: string | null
+          budget_range: string
+          client_location: string | null
+          company_name: string | null
+          created_at: string
+          email: string
+          enquiry_id: string
+          expected_start_time: string
+          full_name: string
+          id: string
+          phone_number: string
+          preferred_communication: string
+          project_description: string
+          project_purpose: string
+          reference_links: string | null
+          service_type: string
+        }
+        Insert: {
+          attachment_url?: string | null
+          budget_range: string
+          client_location?: string | null
+          company_name?: string | null
+          created_at?: string
+          email: string
+          enquiry_id: string
+          expected_start_time: string
+          full_name: string
+          id?: string
+          phone_number: string
+          preferred_communication: string
+          project_description: string
+          project_purpose: string
+          reference_links?: string | null
+          service_type: string
+        }
+        Update: {
+          attachment_url?: string | null
+          budget_range?: string
+          client_location?: string | null
+          company_name?: string | null
+          created_at?: string
+          email?: string
+          enquiry_id?: string
+          expected_start_time?: string
+          full_name?: string
+          id?: string
+          phone_number?: string
+          preferred_communication?: string
+          project_description?: string
+          project_purpose?: string
+          reference_links?: string | null
+          service_type?: string
+        }
+        Relationships: []
+      }
     }
     Views: {
       [_ in never]: never

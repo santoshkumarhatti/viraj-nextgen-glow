@@ -1,7 +1,11 @@
+import { useState } from "react";
 import { Button } from "@/components/ui/button";
-import { ArrowRight, Mail } from "lucide-react";
+import { ArrowRight, FileText } from "lucide-react";
+import EnquiryForm from "@/components/EnquiryForm";
 
 const Hero = () => {
+  const [showEnquiryForm, setShowEnquiryForm] = useState(false);
+
   return (
     <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden px-4">
       {/* Animated Background */}
@@ -30,16 +34,20 @@ const Hero = () => {
         </p>
 
         {/* CTA Button */}
-        <a href="mailto:sndsanthosh74@gmail.com" className="inline-block animate-fade-in-up" style={{ animationDelay: "0.6s" }}>
+        <div className="inline-block animate-fade-in-up" style={{ animationDelay: "0.6s" }}>
           <Button 
-            size="lg" 
+            size="lg"
+            onClick={() => setShowEnquiryForm(true)}
             className="group relative overflow-hidden bg-primary hover:bg-primary/90 text-primary-foreground font-semibold text-lg px-8 py-6 rounded-full transition-all duration-300 hover:scale-105 hover:shadow-[0_0_40px_hsl(var(--tech-glow)/0.5)]"
           >
-            <Mail className="mr-2 h-5 w-5" />
-            Contact Us
+            <FileText className="mr-2 h-5 w-5" />
+            Enquire
             <ArrowRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1" />
           </Button>
-        </a>
+        </div>
+
+        {/* Enquiry Form Modal */}
+        <EnquiryForm open={showEnquiryForm} onOpenChange={setShowEnquiryForm} />
       </div>
     </section>
   );
