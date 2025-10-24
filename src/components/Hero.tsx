@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
-import { ArrowRight, FileText } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 import EnquiryForm from "@/components/EnquiryForm";
 
 const Hero = () => {
@@ -35,12 +35,11 @@ const Hero = () => {
 
         {/* CTA Button */}
         <div className="inline-block animate-fade-in-up" style={{ animationDelay: "0.6s" }}>
-          <Button 
+          <Button
             size="lg"
             onClick={() => setShowEnquiryForm(true)}
             className="group relative overflow-hidden bg-primary hover:bg-primary/90 text-primary-foreground font-semibold text-lg px-8 py-6 rounded-full transition-all duration-300 hover:scale-105 hover:shadow-[0_0_40px_hsl(var(--tech-glow)/0.5)]"
           >
-            <FileText className="mr-2 h-5 w-5" />
             Enquire
             <ArrowRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1" />
           </Button>

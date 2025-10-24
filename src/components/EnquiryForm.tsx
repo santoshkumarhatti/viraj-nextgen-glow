@@ -95,15 +95,15 @@ const EnquiryForm = ({ open, onOpenChange }: EnquiryFormProps) => {
 
   return (
     <Dialog open={open} onOpenChange={onOpenChange}>
-      <DialogContent className="max-w-2xl max-h-[90vh] overflow-y-auto">
+      <DialogContent className="max-w-2xl max-h-[90vh] overflow-y-auto p-4 sm:p-6">
         <DialogHeader>
-          <DialogTitle className="text-2xl font-bold">Submit Your Enquiry</DialogTitle>
+          <DialogTitle className="text-xl sm:text-2xl font-bold">Submit Your Enquiry</DialogTitle>
         </DialogHeader>
 
-        <form onSubmit={handleSubmit(onSubmit)} className="space-y-6">
+        <form onSubmit={handleSubmit(onSubmit)} className="space-y-4 sm:space-y-6">
           {/* Personal / Business Information */}
-          <div className="space-y-4">
-            <h3 className="text-lg font-semibold text-foreground">Personal / Business Information</h3>
+          <div className="space-y-3 sm:space-y-4">
+            <h3 className="text-base sm:text-lg font-semibold text-foreground">Personal / Business Information</h3>
             
             <div className="space-y-2">
               <Label htmlFor="fullName">Full Name *</Label>
@@ -117,7 +117,7 @@ const EnquiryForm = ({ open, onOpenChange }: EnquiryFormProps) => {
               )}
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-3 sm:gap-4">
               <div className="space-y-2">
                 <Label htmlFor="email">Email *</Label>
                 <Input
@@ -164,8 +164,8 @@ const EnquiryForm = ({ open, onOpenChange }: EnquiryFormProps) => {
           </div>
 
           {/* Service & Project Details */}
-          <div className="space-y-4">
-            <h3 className="text-lg font-semibold text-foreground">Service & Project Details</h3>
+          <div className="space-y-3 sm:space-y-4">
+            <h3 className="text-base sm:text-lg font-semibold text-foreground">Service & Project Details</h3>
 
             <div className="space-y-2">
               <Label htmlFor="serviceType">Type of Service Needed *</Label>
@@ -190,7 +190,7 @@ const EnquiryForm = ({ open, onOpenChange }: EnquiryFormProps) => {
               )}
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-3 sm:gap-4">
               <div className="space-y-2">
                 <Label htmlFor="projectPurpose">Purpose of the Project *</Label>
                 <Select onValueChange={(value) => setValue("projectPurpose", value)}>
@@ -228,7 +228,7 @@ const EnquiryForm = ({ open, onOpenChange }: EnquiryFormProps) => {
               </div>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-3 sm:gap-4">
               <div className="space-y-2">
                 <Label htmlFor="budgetRange">Budget Range *</Label>
                 <Select onValueChange={(value) => setValue("budgetRange", value)}>
@@ -268,8 +268,8 @@ const EnquiryForm = ({ open, onOpenChange }: EnquiryFormProps) => {
           </div>
 
           {/* Detailed Requirements */}
-          <div className="space-y-4">
-            <h3 className="text-lg font-semibold text-foreground">Detailed Requirements</h3>
+          <div className="space-y-3 sm:space-y-4">
+            <h3 className="text-base sm:text-lg font-semibold text-foreground">Detailed Requirements</h3>
 
             <div className="space-y-2">
               <Label htmlFor="projectDescription">Project Description *</Label>
