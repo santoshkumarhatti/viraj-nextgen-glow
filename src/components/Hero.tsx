@@ -15,17 +15,17 @@ const Hero = () => {
 
       <div className="relative z-10 text-center max-w-5xl mx-auto animate-fade-in">
         {/* Company Name */}
-        <h1 className="text-7xl md:text-9xl font-black mb-6 bg-gradient-to-r from-primary via-accent to-primary bg-clip-text text-transparent tracking-wider hover:scale-105 transition-transform duration-500 font-times">
-          ValorLink
+        <h1 className="text-5xl md:text-7xl lg:text-8xl font-black mb-6 text-foreground tracking-tight font-times uppercase">
+          VaroTech
         </h1>
 
         {/* Tagline */}
-        <p className="text-2xl md:text-4xl font-light text-foreground/90 mb-8 animate-fade-in-up" style={{ animationDelay: "0.2s" }}>
+        <p className="text-xl md:text-2xl lg:text-3xl font-light text-foreground/80 mb-6 animate-fade-in-up px-4" style={{ animationDelay: "0.2s" }}>
           Empowering Businesses with Scalable IT Solutions
         </p>
 
         {/* Description */}
-        <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto mb-12 animate-fade-in-up" style={{ animationDelay: "0.4s" }}>
+        <p className="text-base md:text-lg text-muted-foreground max-w-2xl mx-auto mb-12 animate-fade-in-up px-4" style={{ animationDelay: "0.4s" }}>
           Next-generation IT services powered by cloud computing, artificial intelligence, and cutting-edge automation
         </p>
 
